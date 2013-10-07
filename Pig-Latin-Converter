@@ -7,27 +7,27 @@ if len(original) > 0 and original.isalpha():
     first = word[0]
     if first == 'a':
         new_word = word+pyg
-        print 'That letter starts with a vowel, in Pig Latin:'
+        print 'That word starts with a vowel, in Pig Latin:'
         print new_word
         
     elif first== 'e':
         new_word = word+pyg
-        print 'That letter starts with a vowel, in Pig Latin:'
+        print 'That word starts with a vowel, in Pig Latin:'
         print new_word
         
     elif first== 'i':
         new_word = word+pyg
-        print 'That letter starts with a vowel, in Pig Latin:'
+        print 'That word starts with a vowel, in Pig Latin:'
         print new_word
         
     elif first== 'o':
         new_word = word+pyg
-        print 'That letter starts with a vowel, in Pig Latin:'
+        print 'That word starts with a vowel, in Pig Latin:'
         print new_word
         
     elif first== 'u':
         new_word = word+pyg
-        print 'That letter starts with a vowel, in Pig Latin:'
+        print 'That word starts with a vowel, in Pig Latin:'
         print new_word
         
     else:
@@ -35,5 +35,5 @@ if len(original) > 0 and original.isalpha():
         num = len(word)
         remaining_letters = word[1:num]
         new_word = remaining_letters+first_letter+pyg
-        print 'That letter starts with a consonant, in Pig Latin:'
+        print 'That word starts with a consonant, in Pig Latin:'
         print new_word
