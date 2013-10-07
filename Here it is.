@@ -1,0 +1,39 @@
+pyg = 'ay'
+
+original = raw_input('Enter a word in English, this program will convert it to Pig Latin:')
+
+if len(original) > 0 and original.isalpha():
+    word = original.lower()
+    first = word[0]
+    if first == 'a':
+        new_word = word+pyg
+        print 'That letter starts with a vowel, in Pig Latin:'
+        print new_word
+        
+    elif first== 'e':
+        new_word = word+pyg
+        print 'That letter starts with a vowel, in Pig Latin:'
+        print new_word
+        
+    elif first== 'i':
+        new_word = word+pyg
+        print 'That letter starts with a vowel, in Pig Latin:'
+        print new_word
+        
+    elif first== 'o':
+        new_word = word+pyg
+        print 'That letter starts with a vowel, in Pig Latin:'
+        print new_word
+        
+    elif first== 'u':
+        new_word = word+pyg
+        print 'That letter starts with a vowel, in Pig Latin:'
+        print new_word
+        
+    else:
+        first_letter = word[0:1]
+        num = len(word)
+        remaining_letters = word[1:num]
+        new_word = remaining_letters+first_letter+pyg
+        print 'That letter starts with a consonant, in Pig Latin:'
+        print new_word
